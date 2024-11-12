@@ -13,6 +13,22 @@
   </p>
 </div>
 
+## Deployed Contracts
+
+- Rootstock Testnet
+  - dex factory : 0x6e54141bE75a25b022d005BE32e2EC00deBfda67
+  - dex router : 0xd200F0f5bEcF8C585e6E6B7A58663eBD9A1B61E5
+  - WtRBTC : 0x045C660EFe6eA0F09fE7db1C9Fb6Fa4F55f13417
+  -stRIF : 0xF1fA8b527019bA5abC079Fbf731C8Fa493842786
+  - longTermVault : 0x6BC31D670E0936262d2ecE410be1E64f4a0B439f
+
+- Citrea Testnet
+  - cbtc : 0xA903D2b1cF8B35926Ea8913faD651A0edD8C35A6
+  - govToken : 0x6BC31D670E0936262d2ecE410be1E64f4a0B439f
+  - dexFactory : 0xB4c1bE1C74662c74d90e6f2893d22cfFC65c7A1D
+  - dexRouter : 0xf554f5ec8d4531B8693723A855374cb316796EB9
+  - longTermVault : 0x72125B30aa70832145B01a76761483516393adAC
+
 ## Features
 
 <ol>
