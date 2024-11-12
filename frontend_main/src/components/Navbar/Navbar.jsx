@@ -10,7 +10,6 @@ import {
 } from "@mui/material";
 import {
   ConnectWallet,
-  useAddress,
   useShowConnectEmbed,
 } from "@thirdweb-dev/react";
 import { useState } from "react";

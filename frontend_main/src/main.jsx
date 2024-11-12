@@ -1,13 +1,3 @@
-import { RootstockTestnet } from "@thirdweb-dev/chains";
-import {
-  coinbaseWallet,
-  embeddedWallet,
-  localWallet,
-  metamaskWallet,
-  smartWallet,
-  ThirdwebProvider,
-  walletConnect,
-} from "@thirdweb-dev/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -23,13 +13,9 @@ import DepositPage from "./pages/Vault/DepositPage";
 import VaultOptions from "./pages/Vault/VaultOptions";
 import Root from "./Root";
 import WithNav from "./WithNav";
+import Providers from "./wrappers/providers";
 
 // Rootstock testnet address: 0xdBB537aAd87536Fb5D74aAE4478ace7E10ac7AF6
-
-const smartWalletOptions = {
-  factoryAddress: "0xdBB537aAd87536Fb5D74aAE4478ace7E10ac7AF6",
-  gasless: true,
-};
 
 const router = createBrowserRouter([
   {
@@ -81,27 +67,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ThirdwebProvider
-      activeChain={RootstockTestnet}
-      clientId="61a6d8958608c0895498206cf21fc890"
-      // locale={en()}
-      supportedWallets={[
-        smartWallet(metamaskWallet(), smartWalletOptions),
-        smartWallet(coinbaseWallet({ recommended: true }), smartWalletOptions),
-        smartWallet(walletConnect(), smartWalletOptions),
-        smartWallet(localWallet(), smartWalletOptions),
-        smartWallet(
-          embeddedWallet({
-            auth: {
-              options: ["email", "google", "apple", "facebook"],
-            },
-          }),
-          smartWalletOptions
-        ),
-        //  metamaskWallet()
-      ]}
-    >
+    <Providers>
       <RouterProvider router={router} />
-    </ThirdwebProvider>
+    </Providers>
   </React.StrictMode>
 );
