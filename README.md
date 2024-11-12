@@ -1,26 +1,15 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/brijeshagal/bitcoin-encode/">
-    <img src="./Utils/Project_LOGO.png" alt="Logo" width="280" height="280">
+  
   </a>
 
 <h3 align="center">BitStake</h3>
 
   <p align="center">
-    "BitStake: Unleashing Digital Prosperity, Inspired by Tradition"
+    "BitStake: Unleashing Digital Prosperity"
     <br />
-    <a href="https://learnhost.co.in">View Demo</a>
-    ·
-    <a href="https://github.com/brijeshagal/bitcoin-encode/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/brijeshagal/bitcoin-encode/issues">Request Feature</a>
   </p>
 </div>
 
@@ -35,7 +24,6 @@
     </ul>
   </li> -->
   <li><a href="## BitStake Vaults: Harnessing AI for Optimized Crypto Investments">MultiStrategy ML-based Vaults</a></li>
-  <li><a href="./AaveV3SDK/README.md">Powerful SDK</a></li>
   <li><a href="# Full fledged Account Abstraction">Full-fledged Account Abstraction with Gasless Transactions and Smart Accounts</a></li>
   <li><a href="#ML Models">In-house, highy accurate ML Models</a></li>
   <li><a href="# Credit Delegation">Credit Delegation Extravaganza</a></li>
@@ -59,23 +47,13 @@ Flexible Deposit Window: Deposit your funds at your convenience.
 Tailored Investment Duration: Specify your investment timeline for each deposit. Longer commitments are encouraged for optimal growth.
 Early Withdrawal Fee: A nominal fee is applied for withdrawals before the specified deadline, ensuring commitment to your investment journey.
 Personalized Portfolio Creation: Utilize our innovative NLP-based form, which gathers insights about your investment preferences and goals. This allows us to craft a unique investment portfolio that's exclusively tailored to your financial aspirations.
-2. IntraDay Vault
-Revolutionize Your Day Trading with Credit Delegation
 
-The IntraDay Vault represents the pinnacle of day trading innovation, utilizing credit delegation for agile and efficient intraday investments. Experience the cutting edge of cryptocurrency trading:
-
-Credit Delegation Mechanism: As delegators, users entrust us with their credits, and we, the vault, act as the delegatee, deploying these credits in dynamic intraday trading strategies.
-Single Daily Investment: We maintain exclusivity and focus by accepting only one deposit per user per day. This ensures maximum dedication to each day's trading potential.
-Automated Day Trading: Our advanced AI algorithms engage in sophisticated day trading strategies, capitalizing on daily market fluctuations.
-Effortless Profit Distribution: At the end of the trading day, profits are automatically calculated and distributed to investors' accounts, post-deduction of our service fee. This seamless process ensures that your investment yields are promptly and efficiently returned to you.
-
-<br>
 <br>
 
 # Full fledged Account Abstraction
 
 ```
-Sign in with your Email or social credentials, or your metamask wallet if you're old fashioned like us.
+Sign in with your Email or social credentials, or your metamask wallet if you're old fashioned like us. 
 Either way, we've got it handled ;)
 ```
 
@@ -95,25 +73,6 @@ The model has been trained on historical data, incorporating various features su
 <br>
 <br>
 
-# Credit Delegation
-
-```
-Credit Delegation MarketPlace UI
-```
-
-We have also integrated **Credit Delegation**, a key component of the **Aave** protocol, to revolutionize the way lending and borrowing occurs in the DeFi space. Credit Delegation is a novel approach that allows users with deposited assets to delegate their credit lines to others, enabling borrowers to access loans without collateral. This mechanism is not just a financial innovation but a step towards a more inclusive and flexible lending system.
-
-Leveraging this feature, our website offers a unique **social interface** where users can seamlessly interact with the DeFi lending market. 
-Borrowers can post credit borrow requests on our platform, making their case to potential lenders. On the other side, users who wish to delegate their credit can easily browse through these requests and, with a simple click, approve and delegate their credits to a borrower. 
-This process democratizes the lending process, connecting delegators with potential delegates directly.
-
-Similarly, users looking to lend their credits can post a lending offer. When someone accepts their offer, the lender receives a notification in their personalized dashboard. From there, they can efficiently review and sign the transaction to delegate their credit. This system not only simplifies the borrowing and lending process but also adds a layer of social interaction, fostering a community-driven financial ecosystem. 
-
-Through our platform, we are not just facilitating financial transactions; we are building a community where trust, transparency, and collaboration are at the forefront, revolutionizing how credit is delegated in the digital age
-
-<br>
-<br>
-
 ## Interactive UI
 
 Frontend Deployment:
@@ -128,7 +87,6 @@ In our pursuit to enhance user convenience, we've integrated a system for gasles
 
 At BitStake, we are committed to providing a technologically advanced, user-friendly platform. Our deployment strategy reflects our dedication to innovation, security, and seamless user experience, making digital investment accessible and enjoyable for everyone.
 
-<br>
 <br>
 <br>
 
