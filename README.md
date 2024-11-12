@@ -38,6 +38,8 @@
 
 ## BitStake Vaults: Harnessing AI for Optimized Crypto Investments
 
+<a href="https://www.canva.com/design/DAGWPSfHED4/bI4WlVrZmKTl7zaRUG294A/edit?utm_content=DAGWPSfHED4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Simplistic Canva PPT</a>
+
 1. Long-Term Investment Vault
 Maximize Your Future with AI-Driven Strategies
 
